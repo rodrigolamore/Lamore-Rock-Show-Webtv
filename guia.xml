@@ -1,0 +1,9 @@
+<?xml version="1.0" enconding="UTF-8"?>
+<tv>
+ <channel id="lamore.rock">
+  <display-name>Lamore Rock Show</display-name>
+</channel>
+<programme start="20260101000000 +0000" stop="20301231000000 +0000 channel="lamore.rock">
+  <title>Rock 24h</title>
+ </programme>
+</tv>

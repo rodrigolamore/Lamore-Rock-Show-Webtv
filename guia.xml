@@ -1,9 +1,28 @@
-<?xml version="1.0" enconding="UTF-8"?>
-<tv>
- <channel id="lamore.rock">
-  <display-name>Lamore Rock Show</display-name>
-</channel>
-<programme start="20260101000000 +0000" stop="20301231000000 +0000 channel="lamore.rock">
-  <title>Rock 24h</title>
- </programme>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv generator-info-name="Lamore Rock Show WebTV">
+  
+  <!-- Definição do Canal -->
+  <channel id="lamorerock">
+    <display-name>Lamore Rock Show WebTV</display-name>
+  </channel>
+
+  <!-- Programação do Dia 1 -->
+  <programme start="20261101000000 -0300" stop="20261102000000 -0300" channel="lamorerock">
+    <title>Clipes 24h</title>
+    <desc>Programação musical contínua com os melhores clipes de rock.</desc>
+  </programme>
+
+  <!-- Programação do Dia 2 -->
+  <programme start="20261102000000 -0300" stop="20261103000000 -0300" channel="lamorerock">
+    <title>Clipes 24h</title>
+    <desc>Programação musical contínua com os melhores clipes de rock.</desc>
+  </programme>
+
+  <!-- Programação do Dia 3 -->
+  <programme start="20261103000000 -0300" stop="20261104000000 -0300" channel="lamorerock">
+    <title>Clipes 24h</title>
+    <desc>Programação musical contínua com os melhores clipes de rock.</desc>
+  </programme>
+
 </tv>
